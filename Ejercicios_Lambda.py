@@ -27,7 +27,7 @@ biseccion = lambda f, a, b, tol: (
 f = lambda x: x**2-5
 raiz = biseccion(f, 0, 10, 0.1)
 
-print(f"Raíz encontrada: {raiz}")  # Output esperado: ~2.0
+print(f"Raíz encontrada: {raiz}") 
 
 
 #Polinomio de taylor
